@@ -742,7 +742,6 @@ section.seventh_Sec::after {
 
 .new_lettr_form .News_form_wrap input#newsLetter {
   font-family: poppins;
-  font-weight: 600;
   border: 0;
   color: #B7B7B7;
   outline: none;
@@ -1189,7 +1188,8 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
     height: 180px !important;
   }
   .tablinks {
-    padding: 12px 30px;
+    padding: 12px 25px;
+    font-size: 0.6em;
   }
   section.fifth_Sec .client_Review_Btm .clientReview_elem {
     display: block;
@@ -1211,10 +1211,11 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
     font-size: 150%;
   }
   .new_lettr_form {
-    width: 80%;
+    width: 100%;
   }
   .new_lettr_form .News_form_wrap {
     width: 100%;
+    padding: 10px 15px 10px 15px;
   }
   footer .figo_footr_elem {
     display: block;

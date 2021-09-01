@@ -654,7 +654,7 @@ section.seventh_Sec {
         background: white;
         input#newsLetter {
             font-family: $secondaryFontName;
-            font-weight: 600;
+            // font-weight: 100;
             border:0;
             color: #B7B7B7;
             outline: none;
@@ -1191,7 +1191,8 @@ footer {
     }
         
     .tablinks {
-        padding: 12px 30px;
+        padding: 12px 25px;
+        font-size: 0.6em;
     }   
     
     // fifth sec 
@@ -1225,9 +1226,10 @@ footer {
     // seventh sec 
 
     .new_lettr_form {
-        width: 80%;
+        width: 100%;
         .News_form_wrap {
             width: 100%;
+            padding: 10px 15px 10px 15px;
         }
     }
 
