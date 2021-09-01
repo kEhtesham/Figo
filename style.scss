@@ -1031,7 +1031,12 @@ footer {
     .topHeading {
         font-size: 150%;
     }
-
+    .fix {
+        position: fixed;
+        .navbar img.logo {
+            position: fixed;
+        }
+    }
     header {
         .navbar {
             nav {

@@ -14,20 +14,14 @@ function openCity(evt, cityName) {
 
 function navFuntion() {
   var Hamburger = document.getElementById("hamburgerIcon");
+  var bodyFix = document.querySelector('body');
   checkClass = Hamburger.classList.contains("active");
   if (checkClass == true) {
     Hamburger.classList.remove("active");
+    bodyFix.classList.remove("fix");
   }
   else {
     Hamburger.classList.add("active");
+    bodyFix.classList.add("fix");
   }
-  // debugger
-  // if (checkClass == false){
-  //   checkClass.classList.add("active");
-  //   console.log("add active");
-  // }
-  // else {
-  //   checkClass.classList.remove("active");
-  //   console.log("remove active");
-  // }
 }
