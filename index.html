@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Figo</title>
+
+    <link rel="icon" href="assets\asset-2.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c61958fd52.js" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <a href="#">
+                    <img src="assets/logo.png" alt="logo" class="logo">
+                </a>
+                <nav>
+                    <div class="hamburger" onclick="navFuntion()" id="hamburgerIcon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#"><img src="assets/cart.svg" alt="cart"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="main_colm">
+                    <div class="main_row left Appender_elem">
+                        <div class="main_head ft_m_lr">All in Good Taste</br>
+                            Food With Figo.</div>
+                        <div class="main_disc ft_m_sm">Quickly predominate standard compliant architecture</br>
+                            and may have prospective internal or organic sources.</div>
+                        <form action="" class="getStart_elem">
+                            <input type="email" name="email" id="emailId" placeholder="Enter Your Address">
+                            <button class="PecondaryButton">Get Started</button>
+                        </form>
+                    </div>
+                    <div class="main_row right Appending_elem">
+                        <div class="main_img_wrap">
+                            <img src="assets/main_img.png" alt="main_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="first_Sec">
+        <div class="container">
+            <div class="first_Sec_wrap column_Size">
+                <div class="cheaf_img_wrap main_row rgt_Elem">
+                    <img src="assets/Chief Image.png" alt="" class="cheaf_img">
+                </div>
+                <div class="cheaf_img_cont main_row lft_Elem">
+                    <div class="head_Title fr_pri_sm">Welcome</div>
+                    <div class="sec_Heading ft_pri_lr">Why Choose Us?</div>
+                    <div class="sec_disc ft_sec_smst">
+                        <p>Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+                        </br>
+                        <p>Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+                    </div>
+                    <button class="PecondaryButton">Explore Our Story</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second_Sec">
+        <div class="container column_Size">
+            <div class="topHeading">
+                <div class="head_Title fr_pri_sm">Welcome</div>
+                <div class="sec_Heading ft_pri_lr">Why Choose Us?</div>
+            </div>
+            <div class="bottomContent">
+                <div class="card_elem">
+                    <img src="assets/Icon-2.png" alt="" class="cardImg">
+                    <div class="card_Heading card_secHead fr_sec_lg">Various Menus</div>
+                    <div class="card_Disc sec_disc ft_sec_smst">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</div>
+                </div>
+                <div class="card_elem">
+                    <img src="assets/Icon-1.png" alt="" class="cardImg">
+                    <div class="card_Heading card_secHead fr_sec_lg">Various Menus</div>
+                    <div class="card_Disc sec_disc ft_sec_smst">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</div>
+                </div>
+                <div class="card_elem">
+                    <img src="assets/Icon.png" alt="" class="cardImg">
+                    <div class="card_Heading card_secHead fr_sec_lg">Various Menus</div>
+                    <div class="card_Disc sec_disc ft_sec_smst">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="third_Sec">
+        <div class="container column_Size">
+            <div class="topHeading">
+                <div class="head_Title fr_pri_sm">Browse</div>
+                <div class="sec_Heading ft_pri_lr">Explore Our Menu</div>
+            </div>
+            <div class="bottomContent">
+                <div class="tab ft_sec_smst">
+                    <button class="tablinks active" onclick="openCity(event, 'Breakfast')">Breakfast</button>
+                    <button class="tablinks" onclick="openCity(event, 'Lunch')">Lunch</button>
+                    <button class="tablinks" onclick="openCity(event, 'Dinner')">Dinner</button>
+                    <button class="tablinks" onclick="openCity(event, 'Desert')">Desert</button>
+                    <button class="tablinks" onclick="openCity(event, 'Soups')">Soups</button>
+                    <button class="tablinks" onclick="openCity(event, 'Drinks')">Drinks</button>
+                  </div>
+                  
+                  <div id="Breakfast" class="tabcontent" style="display: flex;">
+                    
+                    <div class="slider_content_wrap">
+                      
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt ft_sli_smst">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food1.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food3.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider_card_wrap"> 
+                            <div class="slider_card_elem">
+                                <div class="product_wrap">
+                                    <img src="assets/Food2.png" alt="" class="product_Image">
+                                    <div class="pro_hove_cont">
+                                        <div class="pro_cart hover_icon_elem">
+                                            <i class="fas fa-shopping-bag"></i>
+                                        </div>
+                                        <div class="pro_like hover_icon_elem">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product_Details">
+                                    <div class="product_Name ft_sli_head">
+                                        demotest 1
+                                    </div>
+                                    <div class="product_Rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="product_Price">
+                                        <div class="prod_Pric ft_sli_head">$100</div>
+                                        <del class="discountedAmt">$150</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                  </div>
+                  
+                  <div id="Lunch" class="tabcontent" style="display: none;">
+                    test 2
+                  </div>
+
+                  <div id="Dinner" class="tabcontent" style="display: none;">
+                    test 3
+                  </div>
+
+                  <div id="Desert" class="tabcontent" style="display: none;">
+                    test1
+                  </div>
+                  
+                  <div id="Soups" class="tabcontent" style="display: none;">
+                    test 2
+                  </div>
+
+                  <div id="Drinks" class="tabcontent" style="display: none;">
+                    test 3
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="fourth_Sec">
+        <div class="container">
+            <div class="first_Sec_wrap column_Size">
+                <div class="cheaf_img_cont main_row lft_Elem">
+                    <div class="head_Title fr_pri_sm">Welcome</div>
+                    <div class="sec_Heading ft_pri_lr">Why Choose Us?</div>
+                    <div class="sec_disc ft_sec_smst">
+                        <p>Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+                        </br>
+                        <p>Quickly predominate standards compliants architectures and prospective internal or "organic" sources. Synergistically mesh quality quality vectors for one-to-one leadership.</p>
+                    </div>
+                    <button class="PecondaryButton">Explore Our Story</button>
+                </div>
+                <div class="cheaf_img_wrap main_row rgt_Elem">
+                    <img src="assets/Background Image.png" alt="" class="cheaf_img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fifth_Sec"> 
+        <div class="container column_Size">
+            <div class="topHeading">
+                <div class="head_Title fr_pri_sm">Testimonials</div>
+                <div class="sec_Heading ft_pri_lr">Food Lover's Say</div>
+            </div>
+            <div class="bottomContent client_Review_Btm">
+                <div class="clientReview_elem">
+                    <div class="review_Wrap">
+                        <div class="mainReview_cont">
+                            Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal. Use it where it makes sense process.
+                        </div>
+                        <div class="reviewer_Details">
+                            <img src="assets/Image.png" alt="Image" class="reviewer_img">
+                            <div class="reviewer_name_and_disc">
+                                <div class="reviewerName">Lurch Schpellchek</div>
+                                <div class="reviewerDiscription">UI & UX @ Microsoft</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clientReview_elem">
+                    <div class="review_Wrap">
+                        <div class="mainReview_cont">
+                            Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal. Use it where it makes sense process.
+                        </div>
+                        <div class="reviewer_Details">
+                            <img src="assets/Image.png" alt="Image" class="reviewer_img">
+                            <div class="reviewer_name_and_disc">
+                                <div class="reviewerName">Lurch Schpellchek</div>
+                                <div class="reviewerDiscription">UI & UX @ Microsoft</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clientReview_elem">
+                    <div class="review_Wrap">
+                        <div class="mainReview_cont">
+                            Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal. Use it where it makes sense process.
+                        </div>
+                        <div class="reviewer_Details">
+                            <img src="assets/Image.png" alt="Image" class="reviewer_img">
+                            <div class="reviewer_name_and_disc">
+                                <div class="reviewerName">Lurch Schpellchek</div>
+                                <div class="reviewerDiscription">UI & UX @ Microsoft</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clientReview_elem">
+                    <div class="review_Wrap">
+                        <div class="mainReview_cont">
+                            Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal. Use it where it makes sense process.
+                        </div>
+                        <div class="reviewer_Details">
+                            <img src="assets/Image.png" alt="Image" class="reviewer_img">
+                            <div class="reviewer_name_and_disc">
+                                <div class="reviewerName">Lurch Schpellchek</div>
+                                <div class="reviewerDiscription">UI & UX @ Microsoft</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clientReview_elem">
+                    <div class="review_Wrap">
+                        <div class="mainReview_cont">
+                            Design is an evolutionary process, and filler text is just one tool in your progress-pushing arsenal. Use it where it makes sense process.
+                        </div>
+                        <div class="reviewer_Details">
+                            <img src="assets/Image.png" alt="Image" class="reviewer_img">
+                            <div class="reviewer_name_and_disc">
+                                <div class="reviewerName">Lurch Schpellchek</div>
+                                <div class="reviewerDiscription">UI & UX @ Microsoft</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sixth_Sec">
+        <div class="container column_Size">
+            <div class="topHeading">
+                <div class="head_Title fr_pri_sm">News</div>
+                <div class="sec_Heading ft_pri_lr">Latest News</div>
+            </div>
+            <div class="bottomContent">
+                <div class="card_elem">
+                    <img src="assets/Latest News1.png" alt="" class="cardImg">
+                    <div class="card_Heading card_secHead fr_sec_lg">Various Menus</div>
+                    <div class="card_Disc sec_disc ft_sec_smst">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</div>
+                    <a href="#" class="readMore">Read More</a>
+                </div>
+                <div class="card_elem">
+                    <img src="assets/Latest News1.png" alt="" class="cardImg">
+                    <div class="card_Heading card_secHead fr_sec_lg">Various Menus</div>
+                    <div class="card_Disc sec_disc ft_sec_smst">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</div>
+                    <a href="#" class="readMore">Read More</a>
+                </div>
+                <div class="card_elem">
+                    <img src="assets/Latest News1.png" alt="" class="cardImg">
+                    <div class="card_Heading card_secHead fr_sec_lg">Various Menus</div>
+                    <div class="card_Disc sec_disc ft_sec_smst">Etiam feugiat eleifend est, odio tempor vitaeVivamus maximus scelerisque ipsum nec commodo.</div>
+                    <a href="#" class="readMore">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seventh_Sec">
+        <div class="container column_Size">
+            <div class="topHeading">
+                <div class="head_Title fr_pri_sm">Subscription</div>
+                <div class="sec_Heading ft_pri_lr">Wants to Get Update?</div>
+            </div>
+            <div class="bottomContent">
+                <form action="" class="new_lettr_form">
+                    <div class="News_form_wrap">
+                        <input type="email" name="Email" class="ft_sec_smst" id="newsLetter" placeholder="Enter Your Email Address">
+                        <button type="submit" class="Submit_Btn">
+                            <img src="assets/Arrow.svg" alt="">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="figo_footr_elem">
+                <div class="main_ft_cont_wrap">
+                    <div class="Fttr_logo">
+                        <img src="assets/logo.png" alt="logo">
+                    </div>
+                    <div class="fttr_disc_cont fr_sec_lg">
+                        Don't miss to subscribe to our new </br>
+                        feeds, Kindly fill the form bellow.
+                    </div>
+                    <div class="social_media_icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                </div>
+                <div class="footer_Menu">
+                    <div class="fttr_menu_one fttr_menu_elem">
+                        <div class="fttr_menu_heading fr_sec_lg">
+                            Our Menu
+                        </div>
+                        <ul class="footer_menu_elem fr_sec_lg">
+                            <li><a href="#">Lunch</a></li>
+                            <li><a href="#">Dinner</a></li>
+                            <li><a href="#">Catering</a></li>
+                        </ul>
+                    </div>
+                    <div class="fttr_menu_two fttr_menu_elem">
+                        <div class="fttr_menu_heading fr_sec_lg">
+                            Links
+                        </div>
+                        <ul class="footer_menu_elem fr_sec_lg">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Terms Of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fttr_contact">
+                    <div class="fttr_menu_heading fr_sec_lg">
+                        Contact
+                    </div>
+                    <ul class="footer_menu_elem fr_sec_lg">
+                        <li><a href="tel: +8801622010442">+8801622010442</a></li>
+                        <li><a href="mailto: info@restaurant.com">info@restaurant.com</a></li>
+                        <li><a href="#">Daudkandi, Comilla</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+
+<script src="script.js"></script>
+
+<script>
+
+$(document).ready(function(){
+    $('.slider_content_wrap').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+            }
+            },
+            {
+            breakpoint: 449,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            }
+            
+        ]
+    });
+});
+
+</script>
+
+<script>
+setTimeout(function() {
+        $(document).ready(function(){
+            if (window.innerWidth < 768) {
+                $(".Appending_elem").insertBefore(".Appender_elem");
+                $(".fourth_Sec .cheaf_img_wrap").insertBefore(".fourth_Sec .cheaf_img_cont");
+            }
+            else {
+                $(".Appending_elem").insertAfter(".Appender_elem")
+                $(".fourth_Sec .cheaf_img_wrap").insertAfter(".fourth_Sec .cheaf_img_cont")
+            }
+
+            window.onresize = function() {
+                if (window.innerWidth < 768) {
+                    $(".Appending_elem").insertBefore(".Appender_elem");
+                    $(".fourth_Sec .cheaf_img_wrap").insertBefore(".fourth_Sec .cheaf_img_cont");
+                }
+                else {
+                    $(".Appending_elem").insertAfter(".Appender_elem")
+                    $(".fourth_Sec .cheaf_img_wrap").insertAfter(".fourth_Sec .cheaf_img_cont")
+                }
+            }
+        });
+}, 1000);
+</script>
+</body>
+</html>
