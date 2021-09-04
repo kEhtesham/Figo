@@ -92,7 +92,7 @@ section::after {
   font-size: 1.375em;
 }
 
-.ft_sec_smst {
+.font_smallest {
   font-size: 1.125em;
 }
 
@@ -281,7 +281,7 @@ section.second_sec::after {
   margin-bottom: 58px;
 }
 
-.bottomContent {
+.bottom_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,7 +329,7 @@ section.second_sec::after {
   transition: 0.5s ease all;
 }
 
-.card_secHead {
+.card_sec_head {
   padding: 28px 0 30px;
 }
 
@@ -574,12 +574,12 @@ ul.slick-dots {
   display: none !important;
 }
 
-section.fourth_Sec .column_size .rgt_elem {
+section.fourth_sec .column_size .rgt_elem {
   padding-right: 0;
   padding-left: 15px;
 }
 
-section.fourth_Sec .column_size .lft_elem {
+section.fourth_sec .column_size .lft_elem {
   padding-right: 15px;
   padding-left: 0;
 }
@@ -593,7 +593,7 @@ section.fifth_Sec::after {
   left: 1580px;
 }
 
-section.fifth_Sec .client_Review_Btm {
+section.fifth_Sec .client_review_btm {
   -ms-flex-flow: wrap;
       flex-flow: wrap;
   -webkit-box-pack: center;
@@ -602,29 +602,29 @@ section.fifth_Sec .client_Review_Btm {
   margin: 110px 0;
 }
 
-section.fifth_Sec .client_Review_Btm .clientReview_elem {
+section.fifth_Sec .client_review_btm .client_review_elem {
   position: relative;
 }
 
-section.fifth_Sec .client_Review_Btm .clientReview_elem:first-child {
+section.fifth_Sec .client_review_btm .client_review_elem:first-child {
   top: -10px;
 }
 
-section.fifth_Sec .client_Review_Btm .clientReview_elem:nth-child(2) {
+section.fifth_Sec .client_review_btm .client_review_elem:nth-child(2) {
   position: relative;
   top: -50px;
   margin: 0 45px;
 }
 
-section.fifth_Sec .client_Review_Btm .clientReview_elem:nth-child(4) {
+section.fifth_Sec .client_review_btm .client_review_elem:nth-child(4) {
   margin: 22px 20px 0;
 }
 
-section.fifth_Sec .client_Review_Btm .clientReview_elem:last-child {
+section.fifth_Sec .client_review_btm .client_review_elem:last-child {
   margin: 50px 20px 0;
 }
 
-section.fifth_Sec .client_Review_Btm .mainReview_cont {
+section.fifth_Sec .client_review_btm .main_review_cont {
   width: 360px;
   font-family: poppins;
   font-size: 0.85em;
@@ -638,7 +638,7 @@ section.fifth_Sec .client_Review_Btm .mainReview_cont {
   position: relative;
 }
 
-section.fifth_Sec .client_Review_Btm .mainReview_cont::after {
+section.fifth_Sec .client_review_btm .main_review_cont::after {
   content: "";
   width: 0;
   height: 0;
@@ -650,7 +650,7 @@ section.fifth_Sec .client_Review_Btm .mainReview_cont::after {
   left: 32px;
 }
 
-section.fifth_Sec .client_Review_Btm .reviewer_Details {
+section.fifth_Sec .client_review_btm .reviewer_details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -662,52 +662,52 @@ section.fifth_Sec .client_Review_Btm .reviewer_Details {
   margin-top: 20px;
 }
 
-section.fifth_Sec .client_Review_Btm .reviewer_Details .reviewer_name_and_disc {
+section.fifth_Sec .client_review_btm .reviewer_details .reviewer_name_and_disc {
   margin-left: 20px;
 }
 
-section.fifth_Sec .client_Review_Btm .reviewer_Details .reviewer_name_and_disc .reviewerName {
+section.fifth_Sec .client_review_btm .reviewer_details .reviewer_name_and_disc .reviewer_name {
   font-size: 1em;
   font-weight: 600;
 }
 
-section.fifth_Sec .client_Review_Btm .reviewer_Details .reviewer_name_and_disc .reviewerDiscription {
+section.fifth_Sec .client_review_btm .reviewer_details .reviewer_name_and_disc .reviewer_discription {
   font-size: 0.85em;
   color: #979797;
   font-weight: 600;
   font-style: italic;
 }
 
-.sixth_Sec .card_elem {
+.sixth_sec .card_elem {
   padding: 0;
   text-align: left;
   background: transparent;
 }
 
-.sixth_Sec .card_elem .cardImg {
+.sixth_sec .card_elem .card_img {
   width: 100%;
 }
 
-.sixth_Sec .card_elem:hover {
+.sixth_sec .card_elem:hover {
   -webkit-box-shadow: 0 0 0 transparent;
           box-shadow: 0 0 0 transparent;
 }
 
-.sixth_Sec .card_elem:hover::after {
+.sixth_sec .card_elem:hover::after {
   padding: 0;
   width: 0;
 }
 
-.sixth_Sec .card_elem .card_secHead {
+.sixth_sec .card_elem .card_sec_head {
   font-weight: 600;
   padding: 24px 0 20px;
 }
 
-.card_Disc.sec_disc.ft_sec_smst {
+.card_disc.sec_disc.font_smallest {
   margin-bottom: 20px;
 }
 
-.sixth_Sec .card_elem a.readMore {
+.sixth_sec .card_elem a.readMore {
   margin-bottom: 15px;
   text-decoration: none;
   font-weight: 700;
@@ -742,7 +742,7 @@ section.seventh_Sec::after {
   margin: 0 auto;
 }
 
-.new_lettr_form .News_form_wrap {
+.new_lettr_form .news_form_wrap {
   padding: 10px 12px 10px 40px;
   -webkit-box-shadow: 0 5px 20px #00000007;
           box-shadow: 0 5px 20px #00000007;
@@ -757,30 +757,30 @@ section.seventh_Sec::after {
   background: white;
 }
 
-.new_lettr_form .News_form_wrap input#newsLetter {
+.new_lettr_form .news_form_wrap input#newsLetter {
   font-family: poppins;
   border: 0;
   color: #B7B7B7;
   outline: none;
 }
 
-.new_lettr_form .News_form_wrap input#newsLetter::-webkit-input-placeholder {
+.new_lettr_form .news_form_wrap input#newsLetter::-webkit-input-placeholder {
   color: #b7b7b7;
 }
 
-.new_lettr_form .News_form_wrap input#newsLetter:-ms-input-placeholder {
+.new_lettr_form .news_form_wrap input#newsLetter:-ms-input-placeholder {
   color: #b7b7b7;
 }
 
-.new_lettr_form .News_form_wrap input#newsLetter::-ms-input-placeholder {
+.new_lettr_form .news_form_wrap input#newsLetter::-ms-input-placeholder {
   color: #b7b7b7;
 }
 
-.new_lettr_form .News_form_wrap input#newsLetter::placeholder {
+.new_lettr_form .news_form_wrap input#newsLetter::placeholder {
   color: #b7b7b7;
 }
 
-.new_lettr_form .News_form_wrap .Submit_Btn {
+.new_lettr_form .news_form_wrap .submit_Btn {
   background: -webkit-gradient(linear, left top, right bottom, from(#8CB560), to(#639D2B));
   background: linear-gradient(to bottom right, #8CB560, #639D2B);
   border-radius: 30px;
@@ -828,7 +828,7 @@ footer .figo_footr_elem .main_ft_cont_wrap {
   margin-right: 65px;
 }
 
-footer .figo_footr_elem .main_ft_cont_wrap .Fttr_logo {
+footer .figo_footr_elem .main_ft_cont_wrap .fttr_logo {
   width: 84px;
   height: auto;
 }
@@ -907,7 +907,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   .column_size {
     padding: 40px 0;
   }
-  section.fourth_Sec .column_size {
+  section.fourth_sec .column_size {
     padding: 80px 0 40px;
   }
   .card_elem {
@@ -966,7 +966,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   footer .figo_footr_elem .main_ft_cont_wrap .fttr_disc_cont {
     margin: 25px 0;
   }
-  footer .figo_footr_elem .main_ft_cont_wrap .Fttr_logo img {
+  footer .figo_footr_elem .main_ft_cont_wrap .fttr_logo img {
     width: 80%;
   }
   footer .figo_footr_elem .main_ft_cont_wrap .social_media_icons i {
@@ -1036,17 +1036,17 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   .slick-prev {
     left: 82% !important;
   }
-  .News_form_wrap .Submit_Btn {
+  .news_form_wrap .submit_Btn {
     padding: 15px 14px 14px !important;
   }
-  .News_form_wrap .ft_sec_smst {
+  .news_form_wrap .font_smallest {
     font-size: 1.5em;
   }
-  section.fifth_Sec .client_Review_Btm .mainReview_cont {
+  section.fifth_Sec .client_review_btm .main_review_cont {
     width: 100%;
     line-height: normal;
   }
-  section.fifth_Sec .client_Review_Btm .clientReview_elem {
+  section.fifth_Sec .client_review_btm .client_review_elem {
     width: 44%;
   }
   footer .figo_footr_elem .footer_Menu {
@@ -1055,7 +1055,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   footer .figo_footr_elem .footer_Menu .fttr_menu_elem {
     width: 150px;
   }
-  footer .figo_footr_elem .main_ft_cont_wrap .Fttr_logo img {
+  footer .figo_footr_elem .main_ft_cont_wrap .fttr_logo img {
     width: 75%;
   }
   footer .figo_footr_elem ul.footer_menu_elem {
@@ -1168,7 +1168,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   .main_row.lft_elem {
     max-width: 100%;
   }
-  .ft_sec_smst {
+  .font_smallest {
     font-size: 1.3em;
   }
   .sec_disc {
@@ -1184,19 +1184,19 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   .card_elem:hover::after {
     width: 200px;
   }
-  .card_elem .card_secHead {
+  .card_elem .card_sec_head {
     padding: 28px 0 20px;
   }
-  .card_elem .ft_sec_smst {
+  .card_elem .font_smallest {
     font-size: 1.1em;
   }
-  .third_Sec .column_size, .sixth_Sec .column_size, .seventh_Sec .column_size {
+  .third_Sec .column_size, .sixth_sec .column_size, .seventh_Sec .column_size {
     padding: 40px 50px !important;
   }
   .slick-prev {
     left: 77% !important;
   }
-  section.fourth_Sec .column_size .rgt_elem {
+  section.fourth_sec .column_size .rgt_elem {
     padding-right: 0;
     padding-left: 0;
     margin-top: 30px;
@@ -1217,21 +1217,21 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
     padding: 12px 25px;
     font-size: 0.6em;
   }
-  section.fifth_Sec .client_Review_Btm .clientReview_elem {
+  section.fifth_Sec .client_review_btm .client_review_elem {
     display: block;
     width: 100%;
     position: static !important;
     margin-top: 0px !important;
     margin-bottom: 50px !important;
   }
-  section.fifth_Sec .client_Review_Btm .clientReview_elem .mainReview_cont {
+  section.fifth_Sec .client_review_btm .client_review_elem .main_review_cont {
     font-size: 1.5em;
   }
-  .sixth_Sec .bottomContent {
+  .sixth_sec .bottom_content {
     -ms-flex-flow: wrap;
         flex-flow: wrap;
   }
-  .sixth_Sec .bottomContent .card_elem {
+  .sixth_sec .bottom_content .card_elem {
     width: 48%;
     padding: 15px 0;
     font-size: 150%;
@@ -1239,7 +1239,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   .new_lettr_form {
     width: 100%;
   }
-  .new_lettr_form .News_form_wrap {
+  .new_lettr_form .news_form_wrap {
     width: 100%;
     padding: 10px 15px 10px 15px;
   }
@@ -1249,7 +1249,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   footer .figo_footr_elem .main_ft_cont_wrap {
     margin-bottom: 50px;
   }
-  footer .figo_footr_elem .main_ft_cont_wrap .Fttr_logo img {
+  footer .figo_footr_elem .main_ft_cont_wrap .fttr_logo img {
     width: 100%;
   }
   footer .figo_footr_elem .fr_sec_lg {
@@ -1270,7 +1270,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   .container {
     padding: 0 30px;
   }
-  .third_Sec .column_size, .sixth_Sec .column_size, .seventh_Sec .column_size {
+  .third_Sec .column_size, .sixth_sec .column_size, .seventh_Sec .column_size {
     padding: 40px 30px !important;
   }
   .top_heading {
@@ -1298,7 +1298,7 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
     margin-left: 0;
     margin-top: 10px;
   }
-  section.second_sec .bottomContent {
+  section.second_sec .bottom_content {
     -ms-flex-flow: wrap;
         flex-flow: wrap;
   }
@@ -1341,23 +1341,23 @@ footer .figo_footr_elem ul.footer_menu_elem li a {
   section.third_Sec .container.column_size .slick-prev:before, section.third_Sec .container.column_size .slick-next:before {
     font-size: 15px;
   }
-  section.fifth_Sec .client_Review_Btm {
+  section.fifth_Sec .client_review_btm {
     margin: 10px 0;
   }
-  section.fifth_Sec .client_Review_Btm .clientReview_elem {
+  section.fifth_Sec .client_review_btm .client_review_elem {
     margin: 0px !important;
     margin-bottom: 30px !important;
   }
-  section.fifth_Sec .client_Review_Btm .clientReview_elem .mainReview_cont {
+  section.fifth_Sec .client_review_btm .client_review_elem .main_review_cont {
     font-size: 1.2em;
   }
-  .sixth_Sec .bottomContent {
+  .sixth_sec .bottom_content {
     display: block;
   }
-  .sixth_Sec .bottomContent .card_elem {
+  .sixth_sec .bottom_content .card_elem {
     width: 100%;
   }
-  .new_lettr_form .News_form_wrap {
+  .new_lettr_form .news_form_wrap {
     width: 100%;
   }
 }
