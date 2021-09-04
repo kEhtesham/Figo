@@ -139,10 +139,10 @@ header .navbar nav ul li a:hover {
   color: #2C3722;
 }
 
-header .main {
+/* header .main {
   background: -webkit-gradient(linear, left top, right bottom, from(#F8FBF5), color-stop(#F9FCF7), color-stop(#FFFFFF), to(#FFFFFF));
   background: linear-gradient(to bottom right, #F8FBF5, #F9FCF7, #FFFFFF, #FFFFFF);
-}
+} */
 
 header .main .main_colm {
   display: -webkit-box;
@@ -464,7 +464,7 @@ section.third_Sec::before {
 .tab_content .slider_content_wrap .slider_card_wrap .slider_card_elem .product_details .product_rating {
   padding: 5px 0;
 }
-product_name
+
 .tab_content .slider_content_wrap .slider_card_wrap .slider_card_elem .product_details .product_rating i.fas.fa-star {
   color: white;
   -webkit-text-stroke-width: 1px;
@@ -858,9 +858,7 @@ footer .figo_footr_elem .footer_Menu {
   display: flex;
   margin-right: 30px;
 }
-footer .figo_footr_elem .fttr_contact {
-  margin-top: 12px;
-}
+
 footer .figo_footr_elem .footer_Menu .fttr_menu_elem {
   width: 240px;
 }
