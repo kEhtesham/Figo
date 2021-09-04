@@ -34,8 +34,8 @@ body {
   cursor: pointer;
   border-radius: 5px;
   font-weight: 600;
-  -webkit-box-shadow: 0 5px 20px #59882B10;
-          box-shadow: 0 5px 20px #59882B10;
+  -webkit-box-shadow: 0 5px 20px #d8e3cd;
+          box-shadow: 0 5px 20px #d8e3cd;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
 }
@@ -168,8 +168,8 @@ header .main .main_colm .main_row .get_start_form {
 header .main .main_colm .main_row .get_start_form #email_id {
   padding: 16px 30px;
   font-size: 18px;
-  -webkit-box-shadow: 0px 5px 30px #00000007;
-          box-shadow: 0px 5px 30px #00000007;
+  -webkit-box-shadow: 0px 5px 30px #f2f3f2;
+          box-shadow: 0px 5px 30px #f2f3f2;
   border: 0;
   border-radius: 5px;
   width: 350px;
@@ -177,11 +177,6 @@ header .main .main_colm .main_row .get_start_form #email_id {
   outline: none;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
-}
-
-header .main .main_colm .main_row .get_start_form #email_id:focus {
-  -webkit-box-shadow: 0px 5px 60px #00000015;
-          box-shadow: 0px 5px 60px #00000015;
 }
 
 header .main .main_colm .main_row .get_start_form .primary_button {
@@ -370,8 +365,8 @@ section.third_Sec::before {
 
 .tab_content .slider_content_wrap .slider_card_wrap .slider_card_elem {
   width: 270px !important;
-  -webkit-box-shadow: 0 10px 20px #00000005;
-          box-shadow: 0 10px 20px #00000005;
+  -webkit-box-shadow: 0 5px 20px #f2f3f2;
+          box-shadow: 0 5px 20px #f2f3f2;
   border-radius: 5px;
   margin: 0 auto;
   position: relative;
@@ -747,8 +742,8 @@ section.seventh_Sec::after {
 
 .new_lettr_form .news_form_wrap {
   padding: 10px 12px 10px 40px;
-  -webkit-box-shadow: 0 5px 20px #00000007;
-          box-shadow: 0 5px 20px #00000007;
+  -webkit-box-shadow: 0 5px 20px #f3f3f3;
+          box-shadow: 0 5px 20px #f3f3f3;
   border-radius: 35px;
   width: 520px;
   display: -webkit-box;
