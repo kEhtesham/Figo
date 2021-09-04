@@ -13,7 +13,7 @@ function openCity(evt, cityName) {
 }
 
 function navFuntion() {
-  var Hamburger = document.getElementById("hamburgerIcon");
+  var Hamburger = document.getElementById("hamburger_icon");
   var bodyFix = document.querySelector('body');
   checkClass = Hamburger.classList.contains("active");
   if (checkClass == true) {
