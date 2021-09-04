@@ -139,11 +139,6 @@ header .navbar nav ul li a:hover {
   color: #2C3722;
 }
 
-/* header .main {
-  background: -webkit-gradient(linear, left top, right bottom, from(#F8FBF5), color-stop(#F9FCF7), color-stop(#FFFFFF), to(#FFFFFF));
-  background: linear-gradient(to bottom right, #F8FBF5, #F9FCF7, #FFFFFF, #FFFFFF);
-} */
-
 header .main .main_colm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +257,10 @@ section.first_sec::before {
 
 .column_size .rgt_elem img.cheaf_img {
   width: 100%;
+}
+
+.second_sec {
+  padding: 10px 0;
 }
 
 section.second_sec::after {
@@ -574,11 +573,15 @@ ul.slick-dots {
   display: none !important;
 }
 
+
 section.fourth_sec .column_size .rgt_elem {
   padding-right: 0;
   padding-left: 15px;
 }
 
+.fourth_sec {
+  padding: 70px 0 0;
+}
 section.fourth_sec .column_size .lft_elem {
   padding-right: 15px;
   padding-left: 0;
@@ -599,7 +602,7 @@ section.fifth_Sec .client_review_btm {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 110px 0;
+  margin: 110px 0 10px;
 }
 
 section.fifth_Sec .client_review_btm .client_review_elem {
