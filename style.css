@@ -963,7 +963,7 @@ footer ul.footer_menu_elem li a {
   }
   header .main_colm .main_row.right {
     max-width: 40%;
-    margin: 40px 0 75px 0;
+    margin: 0;
   }
   header .navbar nav ul li {
     margin-left: 40px;
@@ -1133,7 +1133,7 @@ footer ul.footer_menu_elem li a {
 
   .container {
     max-width: 100%;
-    padding: 0 50px;
+    padding: 20px 50px;
   }
   .font_large {
     font-size: 6.5em;
@@ -1145,7 +1145,7 @@ footer ul.footer_menu_elem li a {
     font-size: 150%;
   }
   .main_row {
-    max-width: 70%;
+    max-width: 100%;
   }
   .head_title {
     margin-bottom: 6px;
@@ -1389,9 +1389,6 @@ footer ul.footer_menu_elem li a {
 
   .font_large {
     font-size: 3.5em;
-  }
-  .container {
-    padding: 0 30px;
   }
   .third_sec .column_size, .sixth_sec .column_size, .seventh_sec .column_size {
     padding: 40px 30px !important;
