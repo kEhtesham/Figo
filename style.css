@@ -1410,6 +1410,9 @@ footer ul.footer_menu_elem li a {
 
   /* Header/Hero Section */
   
+  header .main_colm .main_row.left {
+    margin-top: 50px;
+  }
   header .navbar {
     padding-top: 30px;
   }
