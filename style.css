@@ -740,6 +740,7 @@ section.fifth_sec .client_review_btm .reviewer_discription {
 /* Subscription(sixth) section */
 
 section.seventh_sec .column_size {
+  padding-top: 80px;
   padding-bottom: 140px;
 }
 
@@ -809,7 +810,7 @@ section.seventh_sec::after {
 footer {
   position: relative;
   background: #F8FBF5;
-  padding: 155px 0;
+  padding: 150px 0;
 }
 
 footer::before {
@@ -818,18 +819,18 @@ footer::before {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 60px;
+  top: 115px;
   right: 1600px;
   background-size: contain;
 }
 
 footer::after {
   background: url(assets/15.png) center no-repeat;
-  padding: 20px;
+  padding: 4  0px;
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 90px;
+  top: 150px;
   left: 1610px;
   background-size: contain;
 }
@@ -850,7 +851,7 @@ footer .figo_footr_elem .main_ft_cont_wrap .fttr_logo {
 }
 
 footer .figo_footr_elem .main_ft_cont_wrap .fttr_disc_cont {
-  margin: 35px 0;
+  margin: 26px 0 32px;
   line-height: 1.4;
   color: #585858;
 }
@@ -866,6 +867,7 @@ footer .social_media_icons a {
   color: #fff;
   font-size: 18px;
   margin-right: 15px;
+  text-decoration: none;
 }
 
 footer .footer_menu {
@@ -881,6 +883,7 @@ footer .footer_menu .fttr_menu_elem {
 
 footer .fttr_menu_heading {
   font-weight: 700;
+  margin-top: 10px;
 }
 
 footer ul.footer_menu_elem {
