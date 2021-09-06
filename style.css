@@ -966,7 +966,7 @@ footer ul.footer_menu_elem li a {
     margin: 0;
   }
   header .navbar nav ul li {
-    margin-left: 40px;
+    margin-left: 15px;
   }
 
   /* Browse section */
@@ -1133,7 +1133,7 @@ footer ul.footer_menu_elem li a {
 
   .container {
     max-width: 100%;
-    padding: 20px 50px;
+    padding: 20px 40px;
   }
   .font_large {
     font-size: 6.5em;
@@ -1157,7 +1157,7 @@ footer ul.footer_menu_elem li a {
     font-size: 1.3em;
   }
   .sec_disc {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .sec_disc p {
     line-height: 20px;
@@ -1186,6 +1186,7 @@ footer ul.footer_menu_elem li a {
   }
 
   /* navbar */
+
   .fix {
     position: fixed;
   }
@@ -1343,7 +1344,7 @@ footer ul.footer_menu_elem li a {
 
   .sixth_sec .bottom_content {
     -ms-flex-flow: wrap;
-        flex-flow: wrap;
+      flex-flow: wrap;
   }
   .sixth_sec .bottom_content .card_elem {
     width: 48%;
@@ -1380,6 +1381,9 @@ footer ul.footer_menu_elem li a {
   }
   footer .footer_menu .fttr_menu_elem {
     width: 200px;
+  }
+  footer .figo_footr_elem .main_ft_cont_wrap {
+    margin-right: 0;
   }
 }
 
@@ -1427,6 +1431,9 @@ footer ul.footer_menu_elem li a {
   header .main_row .get_start_form .primary_button {
     margin-left: 0;
     margin-top: 10px;
+  }
+  header .main_colm .main_row.right {
+    max-width: 100%;
   }
   
   /* Reason(second) Section */
