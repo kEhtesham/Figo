@@ -977,13 +977,13 @@ footer ul.footer_menu_elem li a {
   .slick-prev {
     left: 85% !important;
   }
-  .slider_card_elem {
+  .third_sec .slider_card_elem {
     width: 240px !important;
   }
-  .slider_card_elem .product_wrap {
+  .third_sec .slider_card_elem .product_wrap {
     height: 100% !important;
   }
-  .slick-slide img {    
+  .slick-slide img {
     padding: 12px 0;
   }
 
@@ -1084,7 +1084,7 @@ footer ul.footer_menu_elem li a {
   .slick-prev {
     left: 82% !important;
   }
-  .slider_card_elem {
+  .third_sec .slider_card_elem {
     width: 160px !important;
   }
   .slick-slide img {
