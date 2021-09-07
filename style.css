@@ -901,7 +901,7 @@ footer ul.footer_menu_elem li a {
 
 /* Footer End */
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   section::before, section::after {
     content: "";
     position: absolute;
